@@ -16,10 +16,11 @@ header{
 
 h1{
     color: aliceblue;
-    font-size: 55px;
+    font-size: 57px;
     font-family: GTA;
     text-align: center;
     margin: auto;
+    padding-bottom: 11.5px;
 }
 
 body{
