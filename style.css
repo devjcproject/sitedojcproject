@@ -25,6 +25,11 @@ h1{
 
 body{
     background-color: #33363b;
+    background-image: url(src/matrix.webp);
+    background-repeat: no-repeat;
+    background-position: -100px -100px 100px -300px;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 a{
