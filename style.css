@@ -7,103 +7,159 @@
 }
 
 header{
-    text-align: center;
+    text-align: left;
     background-color:black;
     margin-top: -7px;
-    margin-left: 57px;
-    margin-right: 57px;
+    border-radius: 1px;
+    padding-left: 12px;
+    margin-right: -9px;
+    margin-left: -10px;
 }
 
 h1{
     color: aliceblue;
-    font-size: 57px;
+    font-size: 65px;
     font-family: GTA;
-    text-align: center;
+    text-align: left;
     margin: auto;
-    padding-bottom: 11.5px;
+    padding-bottom: 13.5px;
+    padding-left: 5.5px;
 }
 
 body{
-    background-color: #33363b;
-    background-image: url(src/matrix.webp);
+    background-color: #303134;
+    background-image: url('src/Sem\ nome\ \(1550\ x\ 500\ px\)_20240820_163224_0000.jpg');
     background-repeat: no-repeat;
-    background-position: -100px -100px 100px -300px;
-    background-size: cover;
-    background-attachment: fixed;
+    background-position:  -2px 81px;
+    background-size: contain;
+    background-attachment: scroll;
+    
+}
+
+.links{
+text-align: center;
+margin-top: -50px;
+}
+
+img{
+    width: 21.5vw;
+    border: 5px solid #489350;
+    border-radius: 3px;
+    height: 17vw;
+    position: relative;
+    top: 30px;
+    left: 12px;
+}
+p{
+    color: aliceblue;
+    text-align: left;
+    text-align: justify;
+    padding-bottom: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Olá{
+    font-size: 3em;
+    font-style: normal;
+}
+
+.descrição{
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 375px;
+    margin-top: -230px;
+    font-size: 25px;
+    background-color: #489350;
+    padding:  10px;
+    height: -25px;
+    border-radius: 25px;
+    box-shadow:  black 2px 5px;
+    text-shadow: black 1px 1px;
+}
+
+.Tempo{
+    width: 21.5vw;
+    border: 0px solid #489350;
+    border-radius: 20px;
+    height: 17vw;
+    position: relative;
+    top: 30px;
+    left: 330px;
+}
+
+.tempo{
+    font-style: italic;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    background-color: #489350;
+    font-size: 25px;
+    padding: 10px;
+    box-shadow:  black 2px 5px;
+    text-shadow: black 1px 1px;
+    margin-right: 300px;
+    margin-left: 750px;
+    margin-top: -130px;
+    
+}
+
+.Responsividade{
+    width: 21.5vw;
+    border: 0px solid #489350;
+    border-radius: 20px;
+    height: 17vw;
+    position: relative;
+    top: 55.5px;
+    left: 330px;
+}
+
+.responsividade{
+    text-align: center;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    background-color: #489350;
+    font-size: 25px;
+    padding: 10px;
+    box-shadow:  black 2px 5px;
+    text-shadow: black 1px 1px;
+    margin-right: 300px;
+    margin-left: 750px;
+    margin-top: -100px;
+}
+
+.TECNOLOGIA{
+    width: 21.5vw;
+    border: 0px solid #489350;
+    border-radius: 20px;
+    height: 17vw;
+    position: relative;
+    top: 55.5px;
+    left: 330px;
+}
+
+.tecnologia{
+    text-align: center;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    background-color: #489350;
+    font-size: 25px;
+    padding: 10px;
+    box-shadow:  black 2px 5px;
+    text-shadow: black 1px 1px;
+    margin-right: 300px;
+    margin-left: 750px;
+    margin-top: -100px; 
 }
 
 a{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
     color: aliceblue;
-    font-size: 20px;
-    padding: 15px;
-    padding-top: 5px;
-    margin: auto;
-}
-
-img{
-    display:block;
-    border-radius: 200px;
-    width: 150px;
-    margin: auto;
-}
-
-div{
-    background-color: black;
-    display: block;
-    text-align: center;
-    font-size: 25px;
-    margin-bottom: 50px;
-    margin-left: 57px;
-    margin-right: 57px;
-    padding-top: -40px;
-}
-
-div.corpo{
-    margin-top: -50px;
-    padding: 10px;
-    padding-bottom: 50px;
-    margin-right: 60px;
-    margin-left: 60px;
-    margin-bottom: -60px;
-}
-
-h2{
-    color: aliceblue;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.Vantagens{
-    text-align: left;
-    padding: 1px;
-}
-
-p{
-    color: aliceblue;
-    text-align: left;
-    text-align: justify;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-ul{
-    color: aliceblue;
-    text-align: left;
-}
-
-li{
-font-family: Arial, Helvetica, sans-serif;
-list-style-position: fixed;
-}
-
-.Curiosidade{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-}
-
-.Curiosidade::before{
-    content: '⇒';
+    font-size: 21px;
+    padding: 25px;
+    margin-left: 15px;   
 }
 
 
